@@ -10,10 +10,12 @@ body{
     color: rgb(243, 243, 243);
     font-size: 40px;
     user-select: none; 
+    cursor: url(../content/cursor.png), default;
 }
 
 a{
     color: rgb(243, 243, 243);
+    cursor: url(../content/cursor.png), default;
 }
 
 img{
@@ -80,6 +82,9 @@ img{
 .main_line span:not(:last-child){
     margin-right: 50px;
 }
+.main_line span{
+    cursor: url(../content/cursor.png), default;
+}
 
 .number{
     display: inline-block;
@@ -90,6 +95,7 @@ img{
     font-weight: 500;
     cursor: pointer;
     user-select: text;
+    cursor: url(../content/cursor.png), default;
 }
 
 
@@ -126,6 +132,7 @@ img{
 .parallax_1{
     background: url(../content/fint4.jpg);
 }
+
 .parallax_2{
     background: url(../content/fitn5.jpg);
 }
@@ -138,6 +145,7 @@ img{
 }
 
 .parallax{
+    
     height: 500px;
     background-attachment: fixed;
     background-size: cover;
@@ -148,6 +156,11 @@ img{
     align-items: center;
     text-shadow: -0   -4px 0   #000000, 0   -4px 0   #000000, -0    4px 0   #000000, 0    4px 0   #000000, -4px -0   0   #000000, 4px -0   0   #000000, -4px  0   0   #000000, 4px  0   0   #000000, -1px -4px 0   #000000, 1px -4px 0   #000000, -1px  4px 0   #000000, 1px  4px 0   #000000, -4px -1px 0   #000000, 4px -1px 0   #000000, -4px  1px 0   #000000, 4px  1px 0   #000000, -2px -4px 0   #000000, 2px -4px 0   #000000, -2px  4px 0   #000000, 2px  4px 0   #000000, -4px -2px 0   #000000, 4px -2px 0   #000000, -4px  2px 0   #000000, 4px  2px 0   #000000, -3px -4px 0   #000000, 3px -4px 0   #000000, -3px  4px 0   #000000, 3px  4px 0   #000000, -4px -3px 0   #000000, 4px -3px 0   #000000, -4px  3px 0   #000000, 4px  3px 0   #000000, -4px -4px 0   #000000, 4px -4px 0   #000000, -4px  4px 0   #000000, 4px  4px 0   #000000, -4px -4px 0   #000000, 4px -4px 0   #000000, -4px  4px 0   #000000, 4px  4px 0   #000000;
     text-align: center;
+    
+}
+
+.parallax span{
+    
 }
 
 .wrapper_2{
@@ -185,6 +198,7 @@ img{
     font-weight: 500;
     cursor: pointer;
     box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.2);
+    cursor: url(../content/cursor.png), default;
 }
 
 .description_prices{

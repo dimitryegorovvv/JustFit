@@ -4,6 +4,13 @@ let year = today.getFullYear();
 document.querySelector(".year").textContent = "(c)" + year; 
 //текущий год
 
+if(/iPhone|iPad|iPod/i.test(navigator.userAgent)){
+  let par = document.querySelectorAll(".parallax");
+  for (let i = 0; i < par.length; i++) {
+    par[i].style["background-attachment"] = "scroll";
+  }
+}
+
 // всплывающая подсказка
 tippy('[data-tippy-content]');
 
